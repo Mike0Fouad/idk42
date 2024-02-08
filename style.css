@@ -1,0 +1,166 @@
+
+body{
+    background: url('./assets/background.avif');
+    background-size:contain
+}
+div{
+    background-color: #f2f2f280;
+    border: 1px solid #e6e6e6;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000000;
+    transition: 0.3s ease;
+
+}
+div:hover{
+    box-shadow: 0 0 30px #e6e6e6;
+
+}
+#shit{
+    font-size: 5px;
+}
+h1{
+    font-size: 50px;
+    color: #f0eeee;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#well{
+    font-size: 30px;
+    color: #403192;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#isnt{
+    font-size: 20px;
+    color: #0b3f0f;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#happy{
+    font-size: 40px;
+    color: darkblue;
+    text-align: center;
+    font-family:cursive;
+}
+#cakes{
+    font-size: 20px;
+    color: #172731;;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#some{
+    font-size: larger;
+    color:#77115d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#so{
+    font-size: 20px;
+    color: #6b0a6e;
+    font-family:cursive;
+    font-style: italic;
+    background-color: rgba(106, 67, 143, 0.411);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 15px #8871da;
+}
+ul{
+    text-align: center;
+    list-style-type: none;
+}
+/* ##################################### */
+#videos{
+    text-align: center;
+    padding: 5px;
+    color: #551c8f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifzz;
+    
+}
+.videos{
+    display: grid;    
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    
+}
+video{
+    width: 100%;
+    border-radius: 5px;
+    
+    box-shadow: 0 0 5px #e6e6e6;
+}
+
+/* ##################################### */
+audio{
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000000;
+    transition: 0.3s ease;
+
+}
+audio::-webkit-media-controls-enclosure { 
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2f2f280;
+    transition: 0.3s ease;
+
+}
+audio:hover::-webkit-media-controls-enclosure,audio:hover{
+    box-shadow: 0 0 30px #e6e6e6;
+    
+}
+
+/* ##################################### */
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items:stretch;
+    flex-direction: row;
+}
+#age ,#ich{
+    background-color: rgba(175, 175, 201, 0);
+    border: 0px solid #682ec4;
+    border-bottom: 2px solid #682ec4;
+    padding: 11px;
+    padding-bottom: 3px;
+    transition: 0.3s ease;
+
+}
+#age:hover ,#ich:hover{
+    border-bottom: 2px solid #a162e0;
+
+}
+::placeholder{
+    color: #4c1b9b;
+    padding: 3px;
+    transition: 0.3s ease;
+}
+input:hover::placeholder{
+    color: #5a367e;
+}
+input[type='submit']{
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e6e6e6;
+    cursor: pointer;
+    color: #682ec4;
+    transition: 0.3s ease;
+}
+input[type='submit']:hover{
+    background-color: #f2f2f2 ;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 0 5px #f2f2f2;
+    color: #9e6cee;
+}
+/* ##################################### */
+.disclaimer{
+    font-size: 10px;
+    color: red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
